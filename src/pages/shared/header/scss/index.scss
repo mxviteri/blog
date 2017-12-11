@@ -1,0 +1,25 @@
+.header {
+  background: darken(gray, 30%);
+
+  .titleWrapper {
+    margin: 0 50px;
+  }
+
+  h1 {
+    display: inline;
+    line-height: 100px;
+    margin: 0;
+    color: white;
+    font-size: 5em;
+  }
+
+  .cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .sans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+  }
+}
