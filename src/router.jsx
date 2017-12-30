@@ -1,11 +1,9 @@
 'use strict';
 
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Router = require('react-router').Router;
-const Route = require('react-router').Route;
-const browserHistory = require('react-router').browserHistory;
-const Home = require('./pages/home/index.jsx');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, browserHistory } from 'react-router';
+import Home from './pages/home/index.jsx';
 
 class AppRouter extends React.Component {
   constructor(props) {
@@ -25,4 +23,4 @@ class AppRouter extends React.Component {
   }
 }
 
-module.exports = AppRouter;
+export default AppRouter;

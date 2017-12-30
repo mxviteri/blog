@@ -1,0 +1,13 @@
+.home {
+  .flex-container {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .card {
+      margin: 10px;
+      flex: 1 1 0;
+    }
+  }
+}

@@ -1,9 +1,16 @@
 'use strict'
 
-require('./styles/main.scss');
+import './styles/main.scss';
 
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Router = require('./router.jsx');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Router from './router.jsx';
+import { MuiThemeProvider } from 'material-ui/styles';
 
-ReactDOM.render(<Router />, document.getElementById('container'));
+const Main = (
+  <MuiThemeProvider>
+    <Router />
+  </MuiThemeProvider>
+);
+
+ReactDOM.render(Main, document.getElementById('container'));

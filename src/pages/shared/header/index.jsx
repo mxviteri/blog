@@ -1,8 +1,8 @@
 'use strict';
 
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Link = require('react-router').Link;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Link } from 'react-router';
 
 class PageHeader extends React.Component {
   constructor(props) {
@@ -21,4 +21,4 @@ class PageHeader extends React.Component {
   }
 }
 
-module.exports = PageHeader;
+export default PageHeader;
