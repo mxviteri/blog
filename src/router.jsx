@@ -4,10 +4,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 import Home from './pages/home/index.jsx';
+import SSHEC2 from './pages/posts/ssh-ec2/index.jsx';
+import Articles from './pages/shared/articles/index.js';
 
 class AppRouter extends React.Component {
   constructor(props) {
     super(props);
+
+    this.articles = Articles;
   }
 
   handlePageUpdate() {
@@ -18,6 +22,7 @@ class AppRouter extends React.Component {
     return (
       <Router onUpdate={this.handlePageUpdate} history={browserHistory}>
         <Route path='/' component={Home} />
+        <Route path='/posts/ssh-ec2' component={SSHEC2} />
       </Router>
     );
   }

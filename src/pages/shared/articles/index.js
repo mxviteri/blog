@@ -1,14 +1,12 @@
 const Articles = [
   {
-    title: 'Article One',
-    link: 'article-one',
-    component: null,
+    title: 'How to ssh into your EC2 instances',
+    link: 'ssh-ec2',
     img: null
   },
   {
     title: 'Article Two',
     link: 'article-two',
-    component: null,
     img: null
   },
   {
@@ -20,13 +18,11 @@ const Articles = [
   {
     title: 'Article Four',
     link: 'article-four',
-    component: null,
     img: null
   },
   {
     title: 'Article Five',
     link: 'article-five',
-    component: null,
     img: null
   }
 ];

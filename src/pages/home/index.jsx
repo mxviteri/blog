@@ -16,6 +16,10 @@ class Home extends React.Component {
     }
   }
 
+  toArticle(path) {
+    window.location.href = `${window.location.origin}/posts/${path}`;
+  }
+
   render() {
     return (
       <div className="home">
@@ -23,12 +27,12 @@ class Home extends React.Component {
         <div className="flex-container">
           {this.state.articles.map((article, index) => {
             return (
-              <Card key={index} className="card">
+              <Card key={index} className="card" onClick={() => {this.toArticle(article.link)}}>
                 <CardHeader>
-                  <p>{article.title}</p>
+                  <p>img..</p>
                 </CardHeader>
                 <CardText>
-                  {article.link}
+                  <h3>{article.title}</h3>
                 </CardText>
               </Card>
             );
