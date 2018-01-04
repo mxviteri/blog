@@ -1,5 +1,30 @@
 .ssh-ec2 {
+  p {
+    line-height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1569C7;
+  }
+
+  a:hover {
+    color: #1569C7;
+  }
+
   .container {
-    margin: 10%;
+    margin: 5% 20%;
+
+    .number {
+      margin-right: 10px;
+    }
+
+    .command {
+      display: inline-block;
+      background: lighten($gray, 30%);
+      color: white;
+      padding: 0 10px;
+      border-radius: 5px;
+    }
   }
 }
