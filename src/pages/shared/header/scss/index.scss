@@ -1,5 +1,7 @@
 .header {
   background: darken(gray, 30%);
+  display: flex;
+  justify-content: space-between;
 
   .titleWrapper {
     margin: 0 50px;
@@ -13,6 +15,13 @@
     font-size: 5em;
   }
 
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .cursive {
     font-family: 'Dancing Script', cursive;
   }
@@ -21,5 +30,21 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 4em;
+  }
+
+  .toHide {
+    display: none;
+  }
+
+  .nav {
+    display: inherit;
+    margin: 0 20px;
+    line-height: 100px;
+
+    span {
+      font-size: 20px;
+      color: white;
+      padding: 0 10px;
+    }
   }
 }

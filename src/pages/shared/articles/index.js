@@ -1,8 +1,10 @@
+import ssh from '../../../assets/ssh.png';
+
 const Articles = [
   {
     title: 'How to ssh into your EC2 instances',
     link: 'ssh-ec2',
-    img: null
+    img: ssh
   },
   {
     title: 'Article Two',

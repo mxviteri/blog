@@ -28,11 +28,11 @@ class Home extends React.Component {
           {this.state.articles.map((article, index) => {
             return (
               <Card key={index} className="card" onClick={() => {this.toArticle(article.link)}}>
-                <CardHeader>
-                  <p>img..</p>
+                <CardHeader className="card--header">
+                  <img src={article.img} />
                 </CardHeader>
                 <CardText>
-                  <h3>{article.title}</h3>
+                  <p>{article.title}</p>
                 </CardText>
               </Card>
             );

@@ -26,5 +26,19 @@
       padding: 0 10px;
       border-radius: 5px;
     }
+
+    .links {
+      margin: 5% 0;
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        font-size: 20px;
+        color: $gray;
+      }
+    }
   }
 }
