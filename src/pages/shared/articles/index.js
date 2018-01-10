@@ -1,4 +1,5 @@
 import ssh from '../../../assets/ssh.png';
+import thirdPartyAuth from '../../../assets/third-party-auth.jpg';
 
 const Articles = [
   {
@@ -7,9 +8,9 @@ const Articles = [
     img: ssh
   },
   {
-    title: 'Article Two',
-    link: 'article-two',
-    img: null
+    title: 'High level third-party authentication overview',
+    link: 'third-party-auth',
+    img: thirdPartyAuth
   },
   {
     title: 'Article Three',
