@@ -1,5 +1,6 @@
 import ssh from '../../../assets/ssh.png';
 import thirdPartyAuth from '../../../assets/third-party-auth.jpg';
+import dmarc from '../../../assets/dmarc.jpg';
 
 const Articles = [
   {
@@ -13,10 +14,9 @@ const Articles = [
     img: thirdPartyAuth
   },
   {
-    title: 'Article Three',
-    link: 'article-three',
-    component: null,
-    img: null
+    title: 'Sending email to yourself and avoiding DMARC',
+    link: 'email-dmarc',
+    img: dmarc
   },
   {
     title: 'Article Four',

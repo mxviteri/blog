@@ -1,0 +1,45 @@
+.email-dmarc {
+  p {
+    line-height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1569C7;
+  }
+
+  a:hover {
+    color: #1569C7;
+  }
+
+  .container {
+    margin: 5% 20%;
+
+    .number {
+      margin-right: 10px;
+    }
+
+    .command {
+      display: inline-block;
+      width: 100%;
+      background: lighten($gray, 50%);
+      padding: 0 10px;
+      border-radius: 5px;
+      white-space: pre-line;
+    }
+
+    .links {
+      margin: 5% 0;
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        font-size: 20px;
+        color: $gray;
+      }
+    }
+  }
+}
